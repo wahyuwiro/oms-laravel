@@ -35,9 +35,6 @@ cd oms-laravel
 composer install
 npm install
 
-# Generate app key
-php artisan key:generate
-
 # Install frontend dependencies
 npm run dev
 
@@ -58,6 +55,11 @@ DB_PORT=3306
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
+```
+
+Generate app key
+```bash
+php artisan key:generate
 ```
 
 ## 🧪 Run Migrations and Seeders
