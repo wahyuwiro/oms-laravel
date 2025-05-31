@@ -86,3 +86,6 @@ After seeding, you can log in using:
 - ```admin``` has full access to all modules and navigation items.
 - ```staff``` can only view a limited dashboard (staff.dashboard).
 
+### 🌐 Live Demo
+
+- **Demo Video:** [YouTube](https://youtu.be/1J_flXzE3XY)
