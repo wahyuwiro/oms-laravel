@@ -33,15 +33,31 @@ cd oms-laravel
 
 # Install PHP dependencies
 composer install
-
-# Copy .env and configure DB settings
-cp .env.example .env
+npm install
 
 # Generate app key
 php artisan key:generate
 
 # Install frontend dependencies
-npm install && npm run dev
+npm run dev
+
+# Running the Laravel Development Server
+php artisan serve
+```
+
+## 🔧 Set Up Environment
+Copy the example environment file and update database credentials:
+```bash
+cp .env.example .env
+```
+Edit .env and set your database configuration and mail setting:
+```base
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
 ```
 
 ## 🧪 Run Migrations and Seeders
